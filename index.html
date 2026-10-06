@@ -1,94 +1,414 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>LEVELUP | Gaming Community</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- ================= SIMPLE INTRO ================= -->
+
+    <div id="intro">
+
+        <!-- INTRO AUDIO -->
+        <audio id="introAudio" preload="auto">
+            <source src="intro.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="simple-intro">
+
+            <h1>
+                LEVEL<span>UP</span>
+            </h1>
+
+            <div class="intro-line"></div>
+
+            <p>GAMING COMMUNITY</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
     <nav>
-        <div class="logo">LEVELUP<span>🎮</span></div>
+
+        <div class="logo">
+            LEVEL<span>UP</span>
+        </div>
 
         <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#games">Games</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+
+            <a href="#home">HOME</a>
+            <a href="#games">GAMES</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+
         </div>
 
-        <button id="theme-toggle">🌙</button>
+        <button id="theme-toggle" type="button">
+            ☾
+        </button>
+
     </nav>
 
+
+    <!-- ================= HOME ================= -->
+
     <section id="home" class="hero">
-        <p class="tag">🎮 GAMING COMMUNITY</p>
-        <h1>LEVEL UP<br><span>YOUR GAME.</span></h1>
-        <p class="hero-text">
-            Play. Compete. Conquer. Enter a world built for gamers.
-        </p>
-        <a href="#games" class="play-button">Explore Games →</a>
+
+        <div class="hero-content">
+
+            <p class="tag">
+                ONLINE | GAMING COMMUNITY
+            </p>
+
+            <h1>
+                LEVEL UP
+                <span>YOUR GAME.</span>
+            </h1>
+
+            <p class="hero-text">
+                Play. Compete. Conquer.
+            </p>
+
+            <a href="#games" class="play-button">
+                EXPLORE GAMES →
+            </a>
+
+        </div>
+
     </section>
+
+
+    <!-- ================= GAMES ================= -->
 
     <section id="games">
+
         <p class="tag">EXPLORE</p>
-        <h2>Choose Your <span>Game</span></h2>
+
+        <h2>
+            CHOOSE YOUR <span>GAME.</span>
+        </h2>
 
         <div class="game-grid">
-            <div class="game-card">
-                <div class="game-icon">⚔️</div>
-                <h3>Action</h3>
-                <p>Fast battles, intense missions and endless challenges.</p>
-            </div>
 
             <div class="game-card">
-                <div class="game-icon">🏎️</div>
-                <h3>Racing</h3>
-                <p>Speed through tracks and race your way to victory.</p>
+
+                <h3>ACTION</h3>
+
+                <p>
+                    Fast-paced battles, intense missions
+                    and challenging gameplay.
+                </p>
+
+                <a href="#contact">
+                    EXPLORE →
+                </a>
+
             </div>
 
+
             <div class="game-card">
-                <div class="game-icon">🧠</div>
-                <h3>Strategy</h3>
-                <p>Think smart, plan your moves and dominate the game.</p>
+
+                <h3>RACING</h3>
+
+                <p>
+                    Speed, competition and
+                    high-pressure races.
+                </p>
+
+                <a href="#contact">
+                    EXPLORE →
+                </a>
+
             </div>
+
+
+            <div class="game-card">
+
+                <h3>STRATEGY</h3>
+
+                <p>
+                    Plan your moves, think ahead
+                    and outsmart your opponents.
+                </p>
+
+                <a href="#contact">
+                    EXPLORE →
+                </a>
+
+            </div>
+
+
+            <div class="game-card">
+
+                <h3>ADVENTURE</h3>
+
+                <p>
+                    Discover new worlds, complete
+                    quests and take on challenges.
+                </p>
+
+                <a href="#contact">
+                    EXPLORE →
+                </a>
+
+            </div>
+
+
+            <div class="game-card">
+
+                <h3>SPORTS</h3>
+
+                <p>
+                    Compete, improve your skills
+                    and chase the victory.
+                </p>
+
+                <a href="#contact">
+                    EXPLORE →
+                </a>
+
+            </div>
+
+
+            <div class="game-card">
+
+                <h3>MULTIPLAYER</h3>
+
+                <p>
+                    Team up, compete and experience
+                    the game together.
+                </p>
+
+                <a href="#contact">
+                    EXPLORE →
+                </a>
+
+            </div>
+
         </div>
+
     </section>
+
+
+    <!-- ================= ABOUT ================= -->
 
     <section id="about" class="about">
-        <p class="tag">WHO WE ARE</p>
-        <h2>Built For <span>Gamers.</span></h2>
-        <p>
-            LEVELUP is a gaming community where players can discover games,
-            improve their skills and enjoy the world of gaming.
+
+        <p class="tag">
+            ABOUT LEVELUP
         </p>
+
+        <h2>
+            BUILT FOR <span>GAMERS.</span>
+        </h2>
+
+        <p class="about-text">
+            LEVELUP is a gaming community built for
+            players who love competition, strategy
+            and discovering their next challenge.
+        </p>
+
+
+        <div class="stats">
+
+            <div class="stat">
+
+                <strong>6+</strong>
+
+                <span>
+                    Game Categories
+                </span>
+
+            </div>
+
+
+            <div class="stat">
+
+                <strong>24/7</strong>
+
+                <span>
+                    Gaming Community
+                </span>
+
+            </div>
+
+
+            <div class="stat">
+
+                <strong>100%</strong>
+
+                <span>
+                    Made for Players
+                </span>
+
+            </div>
+
+        </div>
+
     </section>
+
+
+    <!-- ================= CONTACT ================= -->
 
     <section id="contact" class="contact">
-        <p class="tag">GET IN TOUCH</p>
-        <h2>Ready to <span>Level Up?</span></h2>
-        <p>Join the community and start your next gaming adventure.</p>
-        <a href="mailto:levelup@example.com" class="play-button">Contact Us →</a>
+
+        <p class="tag">
+            GET IN TOUCH
+        </p>
+
+        <h2>
+            READY TO <span>LEVEL UP?</span>
+        </h2>
+
+        <p class="contact-text">
+            Join the community and take your gaming
+            experience to the next level.
+        </p>
+
+        <a
+            href="mailto:levelup@example.com"
+            class="play-button"
+        >
+            JOIN THE COMMUNITY →
+        </a>
+
     </section>
 
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
-        <p>© 2026 LEVELUP | Gaming Community</p>
+
+        <p>
+            © 2026 LEVELUP | Gaming Community
+        </p>
+
     </footer>
 
-    <script>
-        const toggle = document.getElementById("theme-toggle");
 
-        toggle.addEventListener("click", () => {
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        /* DARK / LIGHT MODE */
+
+        const toggle =
+            document.getElementById("theme-toggle");
+
+        toggle.addEventListener("click", function () {
+
             document.body.classList.toggle("light-mode");
 
-            if (document.body.classList.contains("light-mode")) {
-                toggle.textContent = "☀️";
+            if (
+                document.body.classList.contains("light-mode")
+            ) {
+
+                toggle.textContent = "☀";
+
             } else {
-                toggle.textContent = "🌙";
+
+                toggle.textContent = "☾";
+
             }
+
         });
+
+
+        /* INTRO + AUDIO */
+
+        window.addEventListener("load", function () {
+
+            const intro =
+                document.getElementById("intro");
+
+            const introAudio =
+                document.getElementById("introAudio");
+
+
+            /* Try to start audio immediately */
+
+            introAudio.currentTime = 0;
+
+            const playAudio = function () {
+
+                introAudio.play().catch(function () {
+                    /* Browser blocked autoplay */
+                });
+
+            };
+
+            playAudio();
+
+
+            /* Fallback:
+               start audio on first interaction
+               if autoplay was blocked */
+
+            const startAudioOnInteraction = function () {
+
+                if (introAudio.paused) {
+
+                    introAudio.play().catch(function () {});
+
+                }
+
+                document.removeEventListener(
+                    "click",
+                    startAudioOnInteraction
+                );
+
+                document.removeEventListener(
+                    "touchstart",
+                    startAudioOnInteraction
+                );
+
+            };
+
+            document.addEventListener(
+                "click",
+                startAudioOnInteraction,
+                { once: true }
+            );
+
+            document.addEventListener(
+                "touchstart",
+                startAudioOnInteraction,
+                { once: true }
+            );
+
+
+            /* Hide intro */
+
+            setTimeout(function () {
+
+                intro.classList.add("intro-hide");
+
+            }, 4200);
+
+
+            /* Remove intro */
+
+            setTimeout(function () {
+
+                intro.remove();
+
+            }, 5100);
+
+        });
+
     </script>
 
 </body>
+
 </html>
